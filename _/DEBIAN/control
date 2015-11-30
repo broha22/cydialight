@@ -1,0 +1,10 @@
+Package: com.broganminer.cydialight
+Name: CydiaLight
+Depends: mobilesubstrate, apt
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Brogan Miner
+Author: Brogan Miner
+Section: Tweaks
+Version: 0.0.1-47
+Installed-Size: 136
