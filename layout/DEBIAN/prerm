@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "[[CSSearchableIndex defaultSearchableIndex] deleteAllSearchableItemsWithCompletionHandler:nil]" > /var/mobile/cydialightremover.cy
+cycript -p Cydia /var/mobile/cydialightremover.cy
+rm /var/mobile/cydialightremover.cy
+exit 0

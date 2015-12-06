@@ -37,7 +37,7 @@
 	
 	userActivity.contentAttributeSet = attributeSet;
 	userActivity.eligibleForSearch = YES;
-	userActivity.eligibleForPublicIndexing = YES;
+	userActivity.eligibleForPublicIndexing = NO;
 	
          
 	[userActivity becomeCurrent];
